@@ -8,16 +8,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="clock.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="SharpVectors.Wpf" Version="1.8.4.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="clock.png" />
-  </ItemGroup>
-
 </Project>

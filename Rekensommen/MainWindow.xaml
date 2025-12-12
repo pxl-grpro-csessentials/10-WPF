@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Rekensommen"
+        xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
         mc:Ignorable="d"
         Title="Rekensommen" Height="450" Width="800">
     <Window.Background>
@@ -45,14 +46,14 @@
                     <Label Content="Van: " Margin="10 0" Padding="0"/>
                     <TextBox Text="0" Margin="10,0,10,10" Name="firstNumberMinTextBox" TextAlignment="Right" TextChanged="Range_TextChanged" KeyDown="Range_KeyDown"/>
                     <Label Content="Tot: " Margin="10 0" Padding="0"/>
-                    <TextBox Text="100" Margin="10,0,10,10" Name="firstNumberMaxTextBox" TextAlignment="Right" TextChanged="Range_TextChanged"/>
+                    <TextBox Text="100" Margin="10,0,10,10" Name="firstNumberMaxTextBox" TextAlignment="Right" KeyDown="Range_KeyDown" />
                 </StackPanel>
                 <StackPanel Grid.Column="1" Margin="5">
                     <Label Content="Getal2" FontWeight="Bold" Margin="5 0"/>
                     <Label Content="Van: " Margin="10 0" Padding="0"/>
-                    <TextBox Text="0" Margin="10,0,10,10" Name="secondNumberMinTextBox" TextAlignment="Right" TextChanged="Range_TextChanged"/>
+                    <TextBox Text="0" Margin="10,0,10,10" Name="secondNumberMinTextBox" TextAlignment="Right" TextChanged="Range_TextChanged" KeyDown="Range_KeyDown"/>
                     <Label Content="Tot: " Margin="10 0" Padding="0"/>
-                    <TextBox Text="100" Margin="10 0" Name="secondNumberMaxTextBox" TextAlignment="Right" TextChanged="Range_TextChanged"/>
+                    <TextBox Text="100" Margin="10 0" Name="secondNumberMaxTextBox" TextAlignment="Right" TextChanged="Range_TextChanged" KeyDown="Range_KeyDown"/>
                 </StackPanel>
             </Grid>
         </GroupBox>

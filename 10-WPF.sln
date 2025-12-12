@@ -7,11 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuigisPizza", "LuigisPizza\LuigisPizza.csproj", "{F2C20F15-E3FB-4590-9719-7F292501C628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack", "Blackjack\Blackjack\Blackjack.csproj", "{E8E81802-8FF4-2D5A-2867-A6CC87095897}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPlanner", "EventPlanner\EventPlanner.csproj", "{E966A9BB-31D8-4875-8261-8AFE9A701511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekensommen", "Rekensommen\Rekensommen.csproj", "{00AC83FB-449F-4681-9494-DE2B9142DB28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack", "Blackjack\Blackjack.csproj", "{393FE6D6-873C-53C6-6EC5-219F0EB88D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EuroConverter", "EuroConverter\EuroConverter.csproj", "{203A8C3F-BC4A-D067-7643-52225022634C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registratie", "Registratie\Registratie.csproj", "{0D5FDDE9-8710-5DFA-A81E-530702144D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekensommen", "Rekensommen\Rekensommen.csproj", "{6801708E-2C21-8E50-DFA6-647990BA3869}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +31,26 @@ Global
 		{F2C20F15-E3FB-4590-9719-7F292501C628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C20F15-E3FB-4590-9719-7F292501C628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C20F15-E3FB-4590-9719-7F292501C628}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E8E81802-8FF4-2D5A-2867-A6CC87095897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8E81802-8FF4-2D5A-2867-A6CC87095897}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8E81802-8FF4-2D5A-2867-A6CC87095897}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8E81802-8FF4-2D5A-2867-A6CC87095897}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E966A9BB-31D8-4875-8261-8AFE9A701511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E966A9BB-31D8-4875-8261-8AFE9A701511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E966A9BB-31D8-4875-8261-8AFE9A701511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E966A9BB-31D8-4875-8261-8AFE9A701511}.Release|Any CPU.Build.0 = Release|Any CPU
-		{00AC83FB-449F-4681-9494-DE2B9142DB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00AC83FB-449F-4681-9494-DE2B9142DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00AC83FB-449F-4681-9494-DE2B9142DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00AC83FB-449F-4681-9494-DE2B9142DB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393FE6D6-873C-53C6-6EC5-219F0EB88D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393FE6D6-873C-53C6-6EC5-219F0EB88D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393FE6D6-873C-53C6-6EC5-219F0EB88D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393FE6D6-873C-53C6-6EC5-219F0EB88D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203A8C3F-BC4A-D067-7643-52225022634C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203A8C3F-BC4A-D067-7643-52225022634C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203A8C3F-BC4A-D067-7643-52225022634C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203A8C3F-BC4A-D067-7643-52225022634C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5FDDE9-8710-5DFA-A81E-530702144D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5FDDE9-8710-5DFA-A81E-530702144D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5FDDE9-8710-5DFA-A81E-530702144D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5FDDE9-8710-5DFA-A81E-530702144D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6801708E-2C21-8E50-DFA6-647990BA3869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6801708E-2C21-8E50-DFA6-647990BA3869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6801708E-2C21-8E50-DFA6-647990BA3869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6801708E-2C21-8E50-DFA6-647990BA3869}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
